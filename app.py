@@ -86,6 +86,6 @@ def tobs():
     tobs_dict = {date: tobs for date, tobs in tobs_data}
     return jsonify(tobs_dict)
 
-# Run the app if this script is executed directly
+# Run the app
 if __name__ == '__main__':
     app.run(debug=True)
